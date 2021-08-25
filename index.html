@@ -8,49 +8,87 @@
     <title>Document</title>
   </head>
   <body class="bg-gray-100">
-    <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
-      <img class="h-10" src="/img/logo.svg" alt="Logo" />
-      <img
-        class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full"
-        src="/img/beach-work.jpg"
-        alt="Beach"
-      />
-      <h1
+    <div class="w-full grid lg:grid-cols-2 2xl:grid-cols-5">
+      <div
         class="
-          object-center
-          mt-6
-          text-2xl
-          font-bold
-          text-gray-900
-          sm:object-cover sm:mt-8 sm:text-4xl
+          2xl:col-span-2
+          px-8
+          py-12
+          max-w-md
+          mx-auto
+          sm:max-w-xl
+          lg:px-12 lg:py-24 lg:max-w-full
+          xl:mx-0
         "
       >
-        You can work from anywhere.
-        <span class="text-indigo-500"> take advantage of it.</span>
-      </h1>
-      <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facilis
-        porro voluptatum sed fugiat libero, voluptas molestiae fugit quaerat
-        nobis commodi voluptatibus obcaecati cumque!
-      </p>
-      <div class="mt-4 sm:mt-6">
-        <a
-          class="
-            sm:text-base
-            rounded-lg
-            inline-block
-            bg-indigo-500
-            text-white
-            px-5
-            py-3
-            shadow-lg
-            uppercase
-            tracking-wider
-            font-semibold
-            text-sm
-          "
-          >Book your escape</a
-        >
+        <div class="xl:max-w-xl xl:mr-0">
+          <img class="h-10" src="/img/logo.svg" alt="Logo" />
+          <img
+            class="
+              lg:hidden
+              mt-6
+              rounded-lg
+              shadow-xl
+              sm:mt-8 sm:h-64 sm:w-full sm:object-center sm:object-cover
+            "
+            src="/img/beach-work.jpg"
+            alt="Beach"
+          />
+          <h1
+            class="
+              object-center
+              mt-6
+              text-2xl
+              font-bold
+              text-gray-900
+              sm:object-cover sm:mt-8 sm:text-4xl
+              lg:text-3xl
+              xl:text-4xl
+            "
+          >
+            You can work from anywhere.
+            <br class="hidden lg:inline" />
+            <span class="text-indigo-500"> take advantage of it.</span>
+          </h1>
+          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            facilis porro voluptatum sed fugiat libero, voluptas molestiae fugit
+            quaerat nobis commodi voluptatibus obcaecati cumque!
+          </p>
+          <div class="mt-4 sm:mt-6">
+            <a
+              class="
+                sm:text-base
+                rounded-lg
+                inline-block
+                bg-indigo-500
+                hover:bg-indigo-400 hover:-translate-y-0.5
+                transform
+                transition
+                focus:outline-none focus:ring focus:ring-offset-2
+                active:bg-indigo-600
+                focus:ring-indigo-500 focus:ring-opacity-50
+                text-white
+                px-5
+                py-3
+                shadow-lg
+                uppercase
+                tracking-wider
+                font-semibold
+                text-sm
+              "
+              href="#"
+              >Book your escape</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block relative 2xl:col-span-3">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object center"
+          src="/img/beach-work.jpg"
+          alt="Beach"
+        />
       </div>
     </div>
   </body>
