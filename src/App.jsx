@@ -21,7 +21,7 @@ const App = () => {
           <div className="xl:max-w-xl xl:mr-0">
             <img
               className="h-10"
-              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/6021344a050355d4a89c38d93cf02c3bfd1d686a/src/img/logo.svg"
+              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/a65d9f389a84e74b3d8985906cfdf41300e8db59/img/logo.svg"
               alt="Logo"
             />
             <img
@@ -31,7 +31,7 @@ const App = () => {
               rounded-lg
               shadow-xl
               sm:mt-8 sm:h-64 sm:w-full sm:object-center sm:object-cover"
-              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/beach-work.jpg"
+              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/beach-work.jpg"
               alt="Beach"
             />
             <h1
@@ -77,7 +77,7 @@ const App = () => {
         <div className="hidden lg:block relative 2xl:col-span-3">
           <img
             className="absolute inset-0 w-full h-full object-cover object center"
-            src="/img/beach-work.jpg"
+            src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/beach-work.jpg"
             alt="Beach"
           />
         </div>

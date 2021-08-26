@@ -4,7 +4,7 @@ export default [
     averagePrice: 120,
     propertyCount: 76,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/toronto.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/toronto.jpg",
     imageAlt: "Toronto skyline",
   },
   {
@@ -12,7 +12,7 @@ export default [
     averagePrice: 215,
     propertyCount: 43,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/malibu.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/malibu.jpg",
     imageAlt: "Cliff in Malibu",
   },
   {
@@ -20,7 +20,7 @@ export default [
     averagePrice: 130,
     propertyCount: 115,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/chicago.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/chicago.jpg",
     imageAlt: "Chicago skyline",
   },
   {
@@ -28,7 +28,7 @@ export default [
     averagePrice: 135,
     propertyCount: 63,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/seattle.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/seattle.jpg",
     imageAlt: "Seattle skyline",
   },
   {
@@ -36,7 +36,7 @@ export default [
     averagePrice: 85,
     propertyCount: 47,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/colorado.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/colorado.jpg",
     imageAlt: "Lake in Colorado",
   },
   {
@@ -44,7 +44,7 @@ export default [
     averagePrice: 115,
     propertyCount: 86,
     imageUrl:
-      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/miami.jpg",
+      "https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/img/miami.jpg",
     imageAlt: "Beach in Miami",
   },
 ]
