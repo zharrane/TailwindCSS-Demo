@@ -1,8 +1,7 @@
 import React from "react"
 import Card from "./components/Card"
 import popularDestinations from "./data/popularDestinations"
-// import logo from "./img/logo.svg"
-import cover from "./img/beach-work.jpg"
+
 const App = () => {
   return (
     <>
@@ -20,7 +19,11 @@ const App = () => {
     "
         >
           <div className="xl:max-w-xl xl:mr-0">
-            <img className="h-10" src="/src/img/logo.svg" alt="Logo" />
+            <img
+              className="h-10"
+              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/6021344a050355d4a89c38d93cf02c3bfd1d686a/src/img/logo.svg"
+              alt="Logo"
+            />
             <img
               className="
                lg:hidden
@@ -28,7 +31,7 @@ const App = () => {
               rounded-lg
               shadow-xl
               sm:mt-8 sm:h-64 sm:w-full sm:object-center sm:object-cover"
-              src="/src/img/beach-work.jpg"
+              src="https://raw.githubusercontent.com/zharrane/TailwindCSS-Demo/master/src/img/beach-work.jpg"
               alt="Beach"
             />
             <h1
@@ -74,7 +77,7 @@ const App = () => {
         <div className="hidden lg:block relative 2xl:col-span-3">
           <img
             className="absolute inset-0 w-full h-full object-cover object center"
-            src="/src/img/beach-work.jpg"
+            src="/img/beach-work.jpg"
             alt="Beach"
           />
         </div>
